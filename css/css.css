@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 10rem;
+    height: 1.2rem;
+    background: #000;
+    margin: auto;
+}
+.header::after{
+    clear: both;
+    display: table;
+    content: '';
+}
+/*第一个小图标*/
+.header_top div:nth-child(1){
+    width: 1.5rem;
+    height: 0.4rem;
+    display: block;
+    float: left;
+    text-align: center;
+    line-height: 0.4rem;
+    color: #fff;
+    border-right: solid 0.01rem #e5e5e5;
+    margin-top: 0.4rem;
+}
+.header_top .iconfont{
+    font-size: 19px;
+}
+[data-dpr="2"] .header_top .iconfont{
+    font-size: 38px;
+}
+[data-dpr="3"] .header_top .iconfont{
+    font-size: 57px;
+}
+
+/*第二个小图标*/
+.header_top div:nth-child(2){
+    width: 1.5rem;
+    height: 0.4rem;
+    display: block;
+    float: left;
+    text-align: center;
+    line-height: 0.4rem;
+    color: #fff;
+    margin-top: 0.4rem;
+    margin-left: 5rem;
+}
+
+
+/*第三个小图标*/
+.header_top div:nth-child(3){
+    width: 1.5rem;
+    height: 0.4rem;
+    display: block;
+    float: left;
+    text-align: center;
+    line-height: 0.4rem;
+    color: #fff;
+    border-left: solid 0.01rem #e5e5e5;
+    margin-top: 0.4rem;
+}
+
+
+
+/*左侧*/
+.header-left{
+    width: 6.5rem;
+    background: #000;
+    color: #fff;
+    height: 14rem;
+}
+.header-left ul{
+    list-style: none;
+    clear: both;
+}
+.header-left ul li{
+    display: block;
+    width: 5.5rem;
+    height: 1.2rem;
+    font-size: 19px;
+    line-height: 1.2rem;
+    border-bottom: 0.01rem solid #e5e5e5;
+    margin-left: 1rem;
+}
+[data-dpr="2"] .header-left ul li{
+    font-size: 38px;
+}
+[data-dpr="3"] .header-left ul li{
+    font-size: 57px;
+}
+
+
+
+.header-left ul li .iconfont{
+    font-size: 19px;
+}
+[data-dpr="2"] .header-left ul li .iconfont{
+    font-size: 38px;
+}
+[data-dpr="3"] .header-left ul li .iconfont{
+    font-size: 57px;
+}
+
+.swiper-container{
+    position: relative;
+}
+.swiper-wrapper img{
+    width: 10rem;
+    height: 14rem;
+}
+.tubiao{
+    width: 10rem;
+    height: 3rem;
+    position: absolute;
+    z-index: 11111;
+    top: 11rem;
+    color: white;
+}
+.tubiao ul{
+    margin: auto;
+    width: 9rem;
+}
+.tubiao ul li{
+    float: left;
+    width: 3rem;
+    text-align: center;
+}
+.tubiao ul li .iconfont{
+    font-size: 30px;
+}
+[data-dpr="2"] .tubiao ul li .iconfont{
+    font-size: 60px;
+}
+[data-dpr="3"] .tubiao ul li .iconfont{
+    font-size: 99px;
+}
